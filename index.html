@@ -4,27 +4,12 @@
         <title>Sciencescape Python Setup</title>
     </head>
     <body>
-        <a id="download-link" href="https://github.com/druptus/purdue-sciencescape-python/archive/refs/heads/main.zip" download style="display:none;"></a>
+        <a id="download-link" href="https://github.com/druptus/Purdue-Sciencescape-Python/archive/refs/heads/main.zip" download style="display:none;"></a>
 
         <div id="fallback-message" style="display:none;">
             <p>Your download should start automatically.</p>
-            <p>If nothing happened, <a href="https://github.com/druptus/purdue-sciencescape-python/archive/refs/heads/main.zip">click here</a>.</p>
+            <p>If nothing happened, <a href="https://github.com/druptus/Purdue-Sciencescape-Python/archive/refs/heads/main.zip">click here</a>.</p>
         </div>
-
-        <script>
-            (function() {
-                const link = document.getElementById('download-link');
-                const fallbackMessage = document.getElementById('fallback-message');
-                let downloadStarted = false;
-
-                link.click();
-                downloadStarted = true;
-
-                setTimeout(() => {
-                    fallbackMessage.style.display = 'block';
-                }, 2000);
-            })();
-        </script>
 
         <div id="cheatsheet">
             <h1>
@@ -106,5 +91,20 @@
                 </tbody>
             </table>
         </div>
+        
+        <script>
+            (function() {
+                const link = document.getElementById('download-link');
+                const fallbackMessage = document.getElementById('fallback-message');
+                let downloadStarted = false;
+
+                link.click();
+                downloadStarted = true;
+
+                setTimeout(() => {
+                    fallbackMessage.style.display = 'block';
+                }, 2000);
+            })();
+        </script>
     </body>
 </html>
