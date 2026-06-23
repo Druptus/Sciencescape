@@ -1,6 +1,6 @@
 # Purdue Sciencescape 2026 CS Lab
 
-Download code from https://druptus.github.io/sciencescape/
+Download code from https://druptus.github.io/Sciencescape/
 
 Most of the work is pretty self-explanatory, or a google search away from finding the solution.
 
