@@ -19,7 +19,7 @@ contamination = 100.0
 print("Contamination level before filtering:", contamination)
 
 # Add your filter logic below this line. You can use the contamination variable to store the new contamination level after filtering.
-contamination = contamination
+ 
 
 print("Contamination level after filtering:", contamination)
 

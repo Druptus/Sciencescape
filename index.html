@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sciencescape Python Setup</title>
+        <link rel="stylesheet" href="https://druptus.github.io/public/css/style.css">
+        <link rel="icon" type="image/svg+xml" href="https://druptus.github.io/public/img/favicon.svg">
     </head>
     <body>
         <a id="download-link" href="https://github.com/druptus/Purdue-Sciencescape-Python/archive/refs/heads/main.zip" download style="display:none;"></a>
 
-        <div id="fallback-message" style="display:none;">
-            <p>Your download should start automatically.</p>
-            <p>If nothing happened, <a href="https://github.com/druptus/Purdue-Sciencescape-Python/archive/refs/heads/main.zip">click here</a>.</p>
-        </div>
-
-        <div id="cheatsheet">
+        <div id="cheatsheet" style="display:flex; text-align:center;">
             <h1>
                 <b>
                     Cheatsheet:
@@ -55,6 +53,8 @@
                 </b>
             </p>
 
+            
+            
             <h2>
                 <b>
                     Vim (File Editor):
@@ -91,7 +91,12 @@
                 </tbody>
             </table>
         </div>
-        
+
+        <div id="fallback-message" style="display:none; text-align:center;">
+            <p>Your download should start automatically.</p>
+            <p>If nothing happened, <a href="https://github.com/druptus/Purdue-Sciencescape-Python/archive/refs/heads/main.zip">click here</a>.</p>
+        </div>
+
         <script>
             (function() {
                 const link = document.getElementById('download-link');
